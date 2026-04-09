@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lappeenranta</title>
+	<link rel="stylesheet" href="style/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Container for the image box */
+.image-box {
+        display: inline-block;
+        border: 2px solid #ccc;       /* Border around the box */
+        border-radius: 8px;           /* Rounded corners */
+        overflow: hidden;             /* Hide overflow for rounded corners */
+        width: 300px;                 /* Fixed width */
+        height: 200px;                /* Fixed height */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Drop shadow */
+        transition: transform 0.2s;   /* Smooth hover effect */
+}
+
+/* Make the image fill the box */
+.image-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+}
+
+/* Hover effect */
+.image-box:hover {
+        transform: scale(1.05);
+        border-color: #007BFF;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Matkailu</h1>
+</header>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.html">Etusivu</a>
+  <a href="historia.html">Historia</a>
+  <a href="teollistuminen.html">Teollistuminen</a>
+  <a href="matkailu.html">Matkailu</a>
+</div>
+
+<!-- Content Container -->
+<div class="container">
+  <div class="side">
+    <h2>Lisää infoa:</h2>
+
+<a href="https://lappeenranta.fi/fi/palvelut/matkailuneuvonta" target="_blank" class="image-box">
+    <img src="img/lpr_logo.jpg" alt="Lappeenranta">
+</a>
+<a href="https://visitlappeenranta.fi/fi" target="_blank" class="image-box">
+	<img src="img/visitlappeenranta.jpg" alt="visitlappeenranta">
+</a>
+
+  </div>
+  <div class="main">
+    <h2>Lappeenrannassa matkailu.</h2>
+	<p>Lappeenranta on viehättävä ja monipuolinen matkailukaupunki Etelä-Karjalassa, Saimaan etelärannalla valtatie 6:n varrella. Lappeenranta tunnetaan upeasta järviluonnostaan, historiallisista nähtävyyksistään ja eläväisestä satama-alueestaan, joka houkuttelee matkailijoita ympäri vuoden.</p>
+	<img src="img/lpr_matkailu.jpg" style="width: 100%; border-radius: 10%" alt="Matkailu">
+    <br>
+    <p>Yksi Lappeenrannan tärkeimmistä nähtävyyksistä on <strong>lumoava Lappeenrannan linnoitus</strong>, joka tarjoaa ainutlaatuisen matkan kaupungin historiaan. Linnoituksen alueella voi tutustua museoihin, vanhoihin rakennuksiin sekä nauttia tunnelmallisista kahviloista ja käsityöputiikeista.</p>
+	<br>
+	<p>Lappeenranta on myös täydellinen kohde luonnon ystäville. Saimaa tarjoaa upeat maisemat, vesistöelämyksiä ja mahdollisuuksia retkeilyyn. Alue kuuluu lisäksi <strong>UNESCO Global Geopark</strong> -kokonaisuuteen, mikä tekee sen luonnosta erityisen arvokkaan ja kiinnostavan matkakohteen.</p>
+	<br>
+	<p>Kaupungin sydän on kesäisin vilkas <strong>Lappeenrannan satama</strong>, jossa voi viettää aikaa järvimaisemista nauttien. Satamassa kannattaa ehdottomasti maistaa paikallisia erikoisuuksia, kuten perinteisiä suolaisia <strong>Vetyjä ja Atomeita</strong>, sekä pysähtyä kahville makeiden herkkujen kera.</p>
+	<img src="img/Vety.jpg" style="width: 100%; border-radius: 10%" alt="Vety">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; Lappeenranta</p>
+</footer>
+
+</body>
+</html>

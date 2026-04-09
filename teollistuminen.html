@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lappeenranta</title>
+	<link rel="stylesheet" href="style/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Container for the image box */
+.image-box {
+        display: inline-block;
+        border: 2px solid #ccc;       /* Border around the box */
+        border-radius: 8px;           /* Rounded corners */
+        overflow: hidden;             /* Hide overflow for rounded corners */
+        width: 300px;                 /* Fixed width */
+        height: 200px;                /* Fixed height */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Drop shadow */
+        transition: transform 0.2s;   /* Smooth hover effect */
+}
+
+/* Make the image fill the box */
+.image-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+}
+
+/* Hover effect */
+.image-box:hover {
+        transform: scale(1.05);
+        border-color: #007BFF;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Teollistuminen</h1>
+</header>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.html">Etusivu</a>
+  <a href="historia.html">Historia</a>
+  <a href="teollistuminen.html">Teollistuminen</a>
+  <a href="matkailu.html">Matkailu</a>
+</div>
+
+<!-- Content Container -->
+<div class="container">
+  <div class="side">
+    <h2>Lähteet</h2>
+
+<a href="https://lappeenranta.fi/fi/palvelut/matkailuneuvonta" target="_blank" class="image-box">
+    <img src="img/ww3.jpg" alt="www3.lappeenranta.com">
+</a>
+
+<a href="https://yle.fi/a/74-20218223" target="_blank" class="image-box">
+    <img src="img/yle.png" alt="Yle">
+</a>
+
+  </div>
+  <div class="main">
+    <h2>Lappeenrannan teollistuminen</h2>
+    <p>Lappeenranta on tunnettu teollisuuskaupunkina, ja sen teollistuminen alkoi 1800-luvun puolivälissä. Ensimmäisenä alkoi kehittyä tekstiiliteollisuus, joka seurasivat nopeasti metalliteollisuus, elintarviketeollisuus ja vuosisadan lopulla puunjalostusteollisuus. Työvoiman saanti oli helppoa, sillä määrätilatonta väkeä oli runsaasti. Teollisuuslaitosten sijainti määräytyi raaka-aineen saannin ja kuljetusyhteyksien mukaan, ja usein tehtaat sijoittuivat vesistöjen varsille ja koskien tuntumaan. Höyryvoiman hyödyntäminen teollisuuslaitoksissa lisääntyi vuosisadan loppua kohden.</p>
+    <br>
+    <p>Lappeenrannan teollistuminen on ollut monipuolinen ja se on ollut osa maaseudun modernisaation prosessia. Kaupunki on ollut aktiivinen teollistumisessa ja se on edustanut kaupungin elinvoimaa ja innovaatiota.</p>
+	
+	<img src="img/kaukas.jpg" style="width: 100%; border-radius: 10%" alt="Kaukas">
+	
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; Lappeenranta</p>
+</footer>
+
+</body>
+</html>

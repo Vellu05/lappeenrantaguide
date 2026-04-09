@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lappeerannan kotisivut</title>
+	<link rel="stylesheet" href="style/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Container for the image box */
+.image-box {
+        display: inline-block;
+        border: 2px solid #ccc;       /* Border around the box */
+        border-radius: 8px;           /* Rounded corners */
+        overflow: hidden;             /* Hide overflow for rounded corners */
+        width: 300px;                 /* Fixed width */
+        height: 200px;                /* Fixed height */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Drop shadow */
+        transition: transform 0.2s;   /* Smooth hover effect */
+}
+
+/* Make the image fill the box */
+.image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Crop image to fill box */
+        display: block;
+}
+
+/* Hover effect */
+.image-box:hover {
+        transform: scale(1.05);
+        border-color: #007BFF;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Lappeenranta</h1>
+</header>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.html">Etusivu</a>
+  <a href="historia.html">Historia</a>
+  <a href="teollistuminen.html">Teollistuminen</a>
+  <a href="matkailu.html">Matkailu</a>
+</div>
+
+<!-- Content Container -->
+<div class="container">
+  <div class="side">
+    <h2>Tervetuloa Lappeenrannan kotisivulle!</h2>
+    <img src="img/lpr_alkusivu.jpg" style="width: 100%; border-radius: 10%" alt="Lappeenranta">
+    <p>Kuva lappeenranna satamasta:</p>
+	<p> Muuta Lappeerannasta:</p>
+<a href="https://saipa.fi/" target="_blank" class="image-box">
+    <img src="img/saipa.jpg" alt="Saipa">
+</a>
+
+
+</div>
+  <div class="main">
+    <h2>Esittely!</h2>
+	<img src="img/lpr_keskusta.jpg" style="width: 90%; border-radius: 10%" alt="Lappeenranta">
+    <p><strong> Lappeenranta </strong> (ruots. Wildmenscoast) on <em> suurkaupunki </em> Etelä-Karjalan tasavallassa, Etelä-Suomen suurruhtinaskunnassa. Kaupunki on nykyisin jaettu osaksi Venäjää. Matkaa Lappeenrannasta Helsinkiin on 221 kilometriä, Pendolinolla 442 kilometriä. Venäläisten matkailijoiden ansiosta <strong> Lappeenranta </strong> on Suomen suurin kaupunki. <strong> Lappeenranta </strong> suunnitteli naapurikunta Joutsenon vallankaappausta pitkään ja se tapahtui tammikuussa 2009. Samoin <strong> Lappeenranta </strong> on kaapannut vallan Lauritsalassa, Lappeessa, Nuijamaalla ja Ylämaalla. <strong> Lappeenranta </strong> suunnittelee myös kaappaavansa Imatran, Rautjärven ja Ruokolahden kasvaakseen Karjalan suurimmaksi suurkaupungiksi. Nykyisin suositaan lähinnä Kieliopillisesti Oikeaa Kirjoitusasua: "lappeen Ranta".</p>
+    <br>
+    <h2>Hauskoja faktoja!</h2>
+    <p><strong>Suomen vanhin ortodoksinen kirkko:</strong> Lappeenrannan linnoituksessa sijaitseva, vuonna 1785 valmistunut kirkko on tiettävästi Suomen vanhin edelleen käytössä oleva ortodoksinen pyhäkkö.</p>
+    <p><strong>Hiekkalinna:</strong> Lappeenrannassa rakennetaan joka kesä Suomen suurin hiekkalinna, ja teema vaihtuu vuosittain.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; Lappeenranta</p>
+</footer>
+
+</body>
+</html>
